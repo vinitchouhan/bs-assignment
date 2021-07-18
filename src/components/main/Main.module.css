@@ -1,0 +1,15 @@
+.mainWrapper{
+    display: flex;
+    justify-content: center;
+}
+.mainHeading{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #2B416C;
+    padding-left: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .mainHeading{
+        font-size: 2rem;
+    }
+}

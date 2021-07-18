@@ -1,0 +1,33 @@
+.wrapper{
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+}
+.selector{
+    color: white;
+    padding: 5px;
+    background-color: gray;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.activeLanguage{
+    background-color: #83A515;
+}
+.selector:hover{
+    background-color: #83A515;
+}
+.languageFlag{
+    width: 30px;
+    height: 20px;
+    padding-right: 5px;
+}
+@media only screen and (max-width: 375px) {
+    .selector{
+        font-size: small;
+    }
+    .languageFlag{
+        width: 20px;
+        height: 15px;
+    }
+}

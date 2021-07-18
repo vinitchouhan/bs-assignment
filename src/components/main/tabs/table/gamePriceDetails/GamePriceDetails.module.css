@@ -1,0 +1,57 @@
+.popupContentContainer{
+    background-color: white;
+    padding: 20px;
+    width: 350px;
+    display: flex;
+    flex-flow: column;
+    height: 400px;
+    cursor: auto;
+    z-index: 3;
+}
+.popupTopRow{
+    display: flex;
+}
+.gameName{
+    display: flex;
+    flex-flow: column;
+    align-self: flex-end;
+    padding-left: 20px;
+}
+.gameName>div{
+    color: #2B416C;
+    padding-bottom: 20px;
+}
+.gameName>i{
+    color: #7788A3;
+}
+.subscriptionType{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.subscriptionType .name{
+    color: #7788A3;
+}
+
+.subscriptionType .price{
+    color: #2B416C;
+}
+
+.popupTopRow>img{
+    width: 150px;
+    height: 150px;
+    box-shadow: inset 0px 0px 10px 6px #ccc;
+    -webkit-box-shadow: inset 0px 0px 10px 6px #ccc;
+    -moz-box-shadow: inset 0px 0px 10px 6px #ccc;
+}
+
+.closeButton{
+    border: 3px solid;
+    padding: 10px;
+    align-self: center;
+    margin-top: auto;
+    cursor: pointer;
+}
+.pricingHeading{
+    color: #2B416C;
+}

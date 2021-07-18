@@ -1,0 +1,26 @@
+.tabsWrapper{
+    display: flex;
+    border-bottom: 1px solid #7788A3;
+    ;
+}
+.activeTab{
+    padding-bottom: 20px;
+    border-bottom: 5px solid #83A515;
+    color: #83A515 !important;
+    font-weight: 600;
+}
+.tabsWrapper>div{
+    font-size: 1.5rem;
+    padding-right: 2.5vw;
+    padding-left: 1vw;
+    color: #556789;
+}
+.tabsWrapper>div:hover{
+    color: #83A515;
+    cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+    .tabsWrapper>div{
+        font-size: 1rem;
+    }
+}

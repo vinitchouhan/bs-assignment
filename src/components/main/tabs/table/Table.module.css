@@ -1,0 +1,112 @@
+.table{
+    
+    margin-top: 30px;
+    box-shadow: 0px 2px 6px 0px #ccc;
+    -webkit-box-shadow: 0px 2px 6px 0px #ccc;
+    -moz-box-shadow: 0px 2px 6px 0px #ccc;
+}
+.tableHeader{
+    display: flex;
+    justify-content: stretch;
+    background-color: #F1F1F4;
+    padding: 15px;
+    font-weight: 600;
+    color: #556789;
+    font-size: 1.5rem;
+}
+.tableHeader>div{
+    padding: 10px;
+}
+.tableBody{
+    display: flex;
+    justify-content: stretch;
+    padding: 10px;
+    border-bottom: 1px solid #7788A3;
+}
+.tableDate{
+    display: flex;
+    flex-flow: column;
+    justify-content: center !important;
+    align-items: flex-start !important;
+}
+.tableDate>div{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.tableBody>div{
+    display: flex;
+    justify-content:flex-start;
+    /* border: 1px solid; */
+    align-items: center;
+    padding: 10px;
+    color: #7788A3;
+}
+.viewPricing{
+    cursor: pointer;
+}
+.tableIcon{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    
+}
+.actionsItem{
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.gameImage{
+    width: 60px;
+    height: 60px;
+}
+.gameDetails{
+    display: flex;
+    flex-flow: column;
+    padding-left: 20px;
+}
+.gameDetails>div{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+    color: #2B416C;
+}
+.gameDetails >i{
+    color: #7788A3;
+}
+
+.flex1{
+    flex: 1;
+} 
+
+.flex2{
+    flex: 2;
+}
+.flex3{
+    flex: 3;
+} 
+.date{
+    color: #2B416C;
+}
+.timeDiff{
+    color: #7788A3;
+}
+.calenderWrapper{
+    z-index: 3;
+}
+
+@media only screen and (max-width: 768px) {
+    .tableHeader{display: none;}
+    .tableBody{flex-direction: column;}
+    .gameDetailsWrapper{order: 1;}
+    .tableDate{order: 2;}
+    .viewPricing{order: 3;}
+    .actionItems{order: 4;}
+  } 
+
+  @media only screen and (max-width: 375px) {
+    .actionsItem{margin-right: 5px;font-size: small;}
+    .tableIcon{width: 20px;height: 20px;margin-right: 5px;}
+    .viewPricing{font-size: small;}
+
+  }
